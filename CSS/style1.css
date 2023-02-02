@@ -8,6 +8,7 @@ body{
 }
 .container{
     display: grid;
+    height: 100vh;
     grid-template-areas: "header header header header" "banner banner banner banner"
     "left-side main main right-side" "footer footer footer footer";
     grid-gap:10px;
@@ -15,42 +16,42 @@ body{
 }
 .header{
     background-color: red;
-    height: 60px;
+    height: 10vh;
     line-height: 50px;
     text-align: center;
     grid-area: header;
 }
 .banner{
     background-color: green;
-    height: 150px;
+    height: 20vh;
     line-height: 150px;
     text-align: center;
     grid-area: banner;
 }
 .left-side{
     background-color: yellow;
-    height: 450px;
+    height: 55vh;
     line-height: 450px;
     text-align:center;
     grid-area: left-side;
 }
 .main{
     background-color: orange;
-    height: 450px;
+    height: 55vh;
     line-height: 450px;
     text-align: center;
     grid-area: main;
 }
 .right-side{
     background-color: blue;
-    height: 450px;
+    height: 55vh;
     line-height: 450px;
     text-align: center;
     grid-area: right-side;
 }
 .footer{
     background-color: violet;
-    height: 60px;
+    height: 10vh;
     line-height: 60px;
     text-align: center;
     grid-area: footer;
