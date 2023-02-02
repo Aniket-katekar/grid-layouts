@@ -48,4 +48,19 @@ body{
     text-align: center;
     grid-area: footer;
 }
+@media screen and (max-width:600px){
+    .container{
+        grid-template-areas: 
+        "header header header header" 
+        "banner banner banner banner"
+        "main main main main" 
+        "right-side right-side right-side right-side" 
+        "footer footer footer footer";
+        grid-gap: 5px;
+    }
+    .right-side{
+        height: 350px;
+        line-height: 350px;
+    }
+}
 
